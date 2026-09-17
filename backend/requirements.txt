@@ -1,0 +1,35 @@
+# --- LangChain core ---
+langchain
+langchain-community
+langchain-experimental
+
+# --- Gemini qua LangChain ---
+langchain-google-genai
+
+# --- Vector store ---
+langchain-chroma
+chromadb
+
+# --- Loaders ---
+pymupdf
+docx2txt
+
+# --- Sparse retrieval ---
+rank-bm25
+
+# --- Reranking (local GPU) ---
+sentence-transformers
+torch
+
+# --- Evaluation ---
+ragas
+scikit-learn
+
+# --- Backend ---
+fastapi
+uvicorn[standard]
+python-multipart
+
+# --- Config & utils ---
+python-dotenv
+pydantic
