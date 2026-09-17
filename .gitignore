@@ -1,0 +1,19 @@
+# Environment & secrets
+.env
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data
+backend/data/raw/*
+!backend/data/raw/.gitkeep
+
+# Database
+*.db
+*.sqlite3
+
+# OS
+.DS_Store
